@@ -1,0 +1,86 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #252525;
+}
+
+#container{
+	position: absolute;
+	margin: 10px auto;
+	background-color: #8C8C8C;
+	border-radius: 10px;
+	display: none;
+}
+
+.screen{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: all .5s;
+}
+
+#intro{
+	background: url('../img/intro.png') no-repeat;
+	background-size: 100% 100%;
+	opacity: 1;
+}
+
+#gameOver{
+	background: url('../img/win.png') no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	z-index: -1;
+}
+ 
+.btn{
+	position: absolute;
+	border-radius: 10px;
+	transition: all .5s;
+}
+
+#n1{
+	background: url('../img/n1.png') no-repeat;
+	background-size: contain;
+}
+
+#n2{
+	background: url('../img/n2.png') no-repeat;
+	background-size: contain;
+}
+
+#n3{
+	background: url('../img/n3.png') no-repeat;
+	background-size: contain;
+}
+
+#n4{
+	background: url('../img/n4.png') no-repeat;
+	background-size: contain;
+}
+
+#n5{
+	background: url('../img/n5.png') no-repeat;
+	background-size: contain;
+}
+
+#n6{
+	background: url('../img/n6.png') no-repeat;
+	background-size: contain;
+}
+
+#n7{
+	background: url('../img/n7.png') no-repeat;
+	background-size: contain;
+}
+
+#n8{
+	background: url('../img/n8.png') no-repeat;
+	background-size: contain;
+}
+
