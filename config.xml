@@ -43,8 +43,9 @@
     -->
 
     <!-- Plugins -->
-
+	
     <!-- Core plugins -->
+    <!--
     <plugin name="cordova-plugin-battery-status" />
     <plugin name="cordova-plugin-camera" />
     <plugin name="cordova-plugin-media-capture" />
@@ -63,7 +64,7 @@
     <plugin name="cordova-plugin-network-information" />
     <plugin name="cordova-plugin-splashscreen" />
     <plugin name="cordova-plugin-vibration" />
-
+	-->
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
     <!--
@@ -117,7 +118,7 @@
         <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
         <access origin="http://phonegap.com" browserOnly="true" /> - only allows http://phonegap.com to be opened by the child browser.
     -->
-
+	
     <access origin="*"/>
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
     <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
